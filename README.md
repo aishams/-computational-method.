@@ -1,12 +1,11 @@
 # -computational-method.
 In the book 'the Art of Computer Programming' the author Knuth describes the definition of a computational method.
-I just reading this book (volume 1) and I had trouble understanding the style.
+I just started reading this book (volume 1) and I had trouble understanding the style.
 
-Knuth mentions a computational method to be a quadruple (Q,I, Omega, f) -- but I had trouble understanding what each of these is intended to be. I understand his first example, but don't understand this. 
-
+Knuth mentions a computational method to be a quadruple (Q,I, Omega, f) -- but I had trouble understanding what each of these is intended to be. 
 Knuth's definiton: Let us formally define a computational method to be a Quadruple (Q, I ,Ω, f), in which Q is a set containing subsets I and Ω, and f is a function from Q into itself. Furthermore f should leave Ω pointwise fixed; that if f(q) should equal q for all elements q of Ω. The four quantities Q, I, Ω, f are intended to represent respectively the states of the computation, the input, the output, and the computational rule. Each input x in the set I defines a computational sequence, x0, x1, x2,..., as follows: x0 = x and xk+1 = f(xk) for k>=0. The computational sequence is said to teminate in k steps if k is the smallest integer for which xk is in Ω, and in this case it is said to pr, so is Xk+1, produce the output xk from x,(Note that if xk is in Ω, so is Xk+1, because xk+1 = Xk in such a case.) some computational sequence never terminates in finitely many steps for all x in I.
 
-Here's my explanation:
+Here's my explanation (not sure if it's right):
 
 Remember we are defining a 'computational method' and not an algorithm. what is a computational method naively?
 
